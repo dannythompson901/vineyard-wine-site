@@ -1,0 +1,221 @@
+<html>
+<head>
+<title>Vineyard Wine & Spirits</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" ></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" ></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    
+<body>
+<!------------------Navigation Bar-------------------------->
+<section id="nav-bar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><img src="img/logo.jpg"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">ABOUT US</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          WINE SELECTION
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#wine-selection">CABERNET</a>
+          <a class="dropdown-item" href="#wine-selection">SAUVIGNON BLANC</a>
+          <a class="dropdown-item" href="#wine-selection">CHARDONNAY</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#wine-selection">MERLOT</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true">FIND US</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+</section>
+    
+    
+    
+<!-------------------- SLIDER------------------------------->
+    <div id="slider">
+    <div id="headerSlider" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#headerSlider" data-slide-to="0" class="active"></li>
+    <li data-target="#headerSlider" data-slide-to="1"></li>
+    <li data-target="#headerSlider" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-interval="2500">
+      <img id ="banner1" src="img/banner-1.jpg" class="d-block img-fluid" alt="...">
+    </div>
+    <div class="carousel-item" data-interval="2500">
+      <img id="banner2" src="img/banner-6.jpg" class="d-block img-fluid" alt="...">
+    </div>
+    <div class="carousel-item" data-interval="2500">
+      <img id="banner3" src="img/banner-3.jpeg" class="d-block img-fluid" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#headerSlider" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#headerSlider" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+<!---------------------ABOUT-------------------------------->
+<section id="about">
+<div class="container">
+    <div class="row">
+    <div class="col-md-3">
+        <h2>About Us</h2>
+        <div class="about-content">
+        We're passionate about wine, and know many of our customers feel the same way. So we are committed to offering the nation's best wine selection, with an emphasis on fine wines. 
+        </div>
+        <button type="button" class="btn btn-primary">Read More>
+        </button>
+    </div>
+    <div class="col-md-3">
+    <h2>Selection</h2>
+        <p>If you can't find it in our store...you don't need to be drinking it.</p>    
+    </div>
+    <div class="col-md-3">
+    <h2>Service</h2>
+        <p>We strive to create the most welcoming environment that will leave you smiling and eager to come see us again!</p>    
+    </div>
+    <div class="col-md-3">
+    <h2>Value</h2>
+        <p> Wine isn't just for the wealthy. It can be enjoyed at any time of year and for any price range. Come see one of our wine specialist for some wine paring recommendations or just something to sip and create memories with!</p>    
+    </div>
+    </div>
+</div>
+</section>
+        
+    
+<!-------------------SELECTION------------------------->
+<section id="selection">
+<div class="container">
+    <h1>Our Selection</h1>
+    <div class="row">
+    <div class="col-md-4 text-center">
+        <div class="icon">
+        <i class="fas fa-glass-martini-alt fa-5x"></i>
+        </div>
+        <h3 style="font-size:16px">We Have The Spirits To Lift Your Spirit!</h3>
+    </div>
+    <div class="col-md-4 text-center">
+        <div class="icon">
+        <i class="fas fa-wine-glass-alt fa-5x"></i>
+        </div>
+        <h3 style="font-size:16px">All Varieties of Wine Are On Hand!
+        </h3>
+    </div>
+    <div class="col-md-4 text-center">
+        <div class="icon">
+        <i class="fas fa-glass-whiskey fa-5x"></i>
+        </div>
+        <h3 style="font-size:16px">Largest Scotch And Whiskey Section In The State!</h3>
+    </div>
+</div>    
+</div>
+</section>
+
+
+<!--------------------------Types of wine----------------->
+<secion id="wine-selection">
+<div class="container">
+    <div class="row">
+    <div id="cab" class="col-md-3 wine-pic text-center">
+        <div class="img-box">
+        <img src="img/cab.jpg" width="160" height="300" class="center img-responsive">
+            <h2>Cabernet</h2>
+        </div>
+    </div>
+        <div id="chard" class="col-md-3 wine-pic text-center">
+        <div class="img-box">
+        <img src="img/chard.jpg" width="160" height="300" class="img-responsive">
+            <h2>Chardonnay</h2>
+        </div>
+    </div>
+        <div class="col-md-3 wine-pic text-center">
+        <div class="img-box">
+        <img src="img/sauv.jpeg" width="200" height="300" class="img-responsive">
+            <h2>Sauvignon Blanc</h2>
+        </div>
+    </div>
+        <div class="col-md-3 wine-pic text-center">
+        <div class="img-box">
+        <img src="img/merl.jpg" width="160" height="300" class="img-responsive">
+            <h2>Merlot</h2>
+        </div>
+    </div>
+    </div>
+</div>    
+</secion>
+
+<!-----------------------Contact US/Find US!--------------->
+<section id="contact">
+<div class = "containter">
+    <h1 style="text-align: center">Any Questions? Contact Us!</h1>
+        <div class="row">
+            <div class="col-md-3">
+            </div>
+            <div class="col-md-3">
+            <form class = "contact-form">
+            <div class="form-group"><!--bootstrap class-->
+                <input type="text" class="form-control" placeholder="Your Name">
+            </div>
+                <div class="form-group"><!--bootstrap class-->
+                <input type="number" class="form-control" placeholder="Your Number">
+            </div>
+                <div class="form-group"><!--bootstrap class-->
+                <input type="email" class="form-control" placeholder="Your Email Id">
+            </div>
+                <div class="form-group"><!--bootstrap class-->
+                    <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+            </div>
+                <button type="submit" class="btn btn-primary">Send Your Message</button>
+            </form>
+            </div>
+            
+            <div class="col-md-3 contact-info">
+            <div class="find-us"><b>Address : </b> 5025 Church Rd, Olive Branch,MS 38654</div>
+            <div class="find-us"><b>ANumber : </b> 662-874-5156</div>
+            <div class="find-us"><i class="fab fa-instagram"></i><b>follow us : </b> <a href="https://www.instagram.com/vineyardwineob/">Instagram</a></div>
+            <a> <img id="logo" src="img/logo.jpg"></a>
+            </div>
+            <div class="col-md-3">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!---------------FOOTER------------------------------>
+    <section id="footer">
+    <div class="container text-center">
+        <p>Made By Danny Thompson INC <i class="fas fa-pencil-ruler"></i></p>
+    </div></section>
+    <script src="js/smooth-scroll.js"></script>
+    <script>
+    var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+</body>
+</html>
